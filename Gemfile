@@ -6,4 +6,10 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'middleman-livereload'
 gem 'haml'
-gem 'rspec'
+
+group :development, :test do
+    gem 'capybara'
+    gem 'pry'
+    gem 'pry-byebug'
+    gem 'rspec'
+  end
