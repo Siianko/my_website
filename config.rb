@@ -1,7 +1,16 @@
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+require 'extensions/build_cleaner'
+require 'extensions/haml_fix'
+
+
+configure :build do
+  activate :relative_assets
+  activate :build_cleaner
+end
 
 activate :livereload
+
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
