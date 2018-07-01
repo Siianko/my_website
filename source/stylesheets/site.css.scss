@@ -87,15 +87,20 @@ a:hover {
   padding-block-start: 3%;
   padding-inline-start:5%;
   font-family: "Avenir next" ;
-  font-size: 20px; 
+  font-size: 15px; 
   word-spacing: 5px;
 }
 
-.container.portfolio  {
-
+#container-portfolio-intro  {
+  margin-top: 25px;
+  padding-inline-start:5%;
+  width: 75%;
+  font-size: 15px; 
+  font-family: "Avenir next"
 }
 
-.h4:hover {
+h1.portfolio {
+  font-size: 30px;
   color: rgb(245, 90, 90);
-  text-decoration: underline;
+  text-decoration: none;
 }

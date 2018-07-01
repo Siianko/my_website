@@ -1,5 +1,16 @@
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+  description: Enjoy my HTML5 website, that I have build during a week at Craft Academy. Fun! 
 
-- name: FizzBuzz
-  description: My first Test driven ruby project
+- name: Sweden Foodtech
+  description: Our aim is to build a stronger ecosystem around foodtech. We intend to transform Stockholm and ultimately Sweden into a global hub for the foodtech revolution and create the conditions for a new industry with global export potential. 
+
+- name: Techstars Startup Weekend
+  description: Techstars Startup Weekend is a global grassroots movement helping entrepreneurs to the basics of founding startups and launching successful ventures. It is a 54 hours event for designers, marketers and technical people.
+
+- name: Flowersense
+  description: Founder at Flowersenseapp Inc. is a mobile flower marketplace, where everyone can buy and sell flowers. 
+
+- name: Lonely Walls
+  description: Lonely Walls Inc. is a mobile app, an art aggregator, leveraging augmented reality technology helping customers to visualize a chosen item of art and décor before buying it.
+
+  

@@ -1,6 +1,12 @@
 .body
 
-    %h3.portfolio Welcome to my portfolio!  
+    %h1.portfolio Hello World!  
+        
+    #container-portfolio-intro 
+        %p I am Tetiana Siianko. Ukrainian by birth, Swedish by passion. 
+        I am the founder of two VC-backed startups, operations and program manager at Sweden Foodtech, Techstars Startup Weekend Stockholm community leader. Doer and hustler in the core. Organizer of the biggest startup events in Sweden. 
+        Working on bridging the gap between arts and technology and rethinking the food system. 
+    
    
     .container.portfolio  
         .projects
@@ -8,3 +14,6 @@
             %h4= project[:name]
             %p= project[:description]
             %br
+
+    
+    %div{:style => "margin-top:200px"}
