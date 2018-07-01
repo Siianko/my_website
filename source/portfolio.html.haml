@@ -1,7 +1,10 @@
 .body
-    %h2 Checkout my portfolio!
 
-.projects
-- data.projects.each do |project|
-    %h4= project[:name]
-    %p= project[:description]
+    %h3.portfolio Welcome to my portfolio!  
+   
+    .container.portfolio  
+        .projects
+        - data.projects.each do |project|
+            %h4= project[:name]
+            %p= project[:description]
+            %br

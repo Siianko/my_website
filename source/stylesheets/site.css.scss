@@ -28,7 +28,7 @@ a {
 
 a:active {
   color: rgb(31, 31, 31);
-  text-decoration: underline;
+  border-bottom: 3px solid red
   }
 
 a:hover {
@@ -65,7 +65,7 @@ a:hover {
   width: 95%;
 }
 
-.container {
+.container-skills {
   width: 90%; /* Full width */
   background-color: #ddd; /* Grey background */
 }
@@ -81,3 +81,21 @@ a:hover {
 .project-management {width: 80%; background-color: #2196F3;} 
 .marketing {width: 90%; background-color: #f44336;} 
 .web-development {width: 20%; background-color: #808080;} 
+
+.portfolio {
+  padding-right: 20px; 
+  padding-block-start: 3%;
+  padding-inline-start:5%;
+  font-family: "Avenir next" ;
+  font-size: 20px; 
+  word-spacing: 5px;
+}
+
+.container.portfolio  {
+
+}
+
+.h4:hover {
+  color: rgb(245, 90, 90);
+  text-decoration: underline;
+}
