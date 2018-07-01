@@ -1,9 +1,10 @@
-.bg-red-light
-    %h1 Hello and welcome!
+.body
+    %h2 What's up!
     .projects
         - data.projects.each do |project|
             %h4= project[:name]
             %p= project[:description]
+    
     .container.mx-auto.text-center
-        %img(src="./images/test_image.jpg" alt="Tetiana")
+        %img(src="./images/red.jpg")
         %br 
