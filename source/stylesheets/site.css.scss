@@ -1,32 +1,48 @@
 $background-color: #f8fafc;
 
-.navbar.navbar-default {
-  background-color: rgb(250, 250, 250);
-  color: #e3342f;
-  font-family: "Open sans", "sans-serif";
-  font-size: 50px;
-}
+.navbar {
+  width: 70%;
+  padding-block-start: 3%;
+  padding-inline-start:5%;
+  $background-color: #f8fafc;
+  font-family: "Avenir next" ;
+  font-size: 30px; 
+  word-spacing: 20px;
+  }
 
 .body {
-  background-color: #f8fafc;
-  color: #3D4852;
-  font-family: "Open sans", "sans-serif";
-  padding: 18vh 1rem;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: rgba(#e3342f, 0.7);
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+a {    
+  color: rgb(31, 31, 31);
+  background-color: transparent; 
+  text-decoration: none;
   }
+
+a:active {
+  color: #3D4852;
+  background-color: transparent;
+  text-decoration: none;
+  text-decoration: underline;
+  }
+
+a:hover {
+  color: rgb(245, 90, 90);
+  text-decoration: underline;
+  }
+
+#Tetiana {
+  padding-inline-start:5%;
+  width: 900px;
 }
 
-.div.projects {
-  color: #3D4852;
-  font-size: 10px;
-
+.footer-main {
+margin: 100px;
+color: rgb(164, 164, 165);
+text-align: center;
+font-family: "Avenir next"
 }
 
 //.middleman-logo {
@@ -34,3 +50,6 @@ a {
 //  width: 10rem;
 //}
 
+//#img_Tetiana {
+// height: 500px; 
+//}
