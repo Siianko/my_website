@@ -1,5 +1,10 @@
 $background-color: #f8fafc;
 
+.body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   width: 70%;
   padding-block-start: 3%;
@@ -10,9 +15,9 @@ $background-color: #f8fafc;
   word-spacing: 20px;
   }
 
-.body {
-  margin: 0;
-  padding: 0;
+.wrapper-hashtags {
+  padding-top: 1%;
+  padding-inline-start:5%;
 }
 
 a {    
@@ -22,7 +27,7 @@ a {
   }
 
 a:active {
-  color: rgb(31, 31, 31);
+  color: rgb(1, 79, 248);
   text-decoration: underline;
   }
 
@@ -54,13 +59,37 @@ a:hover {
   word-spacing: 10px;
   }
 
+.wrapper-skills {
+  padding-top: 5%; 
+  padding-inline-start: 5%;
+  }
 
+.container {
+  width: 90%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
 
-//.middleman-logo {
-//  margin-bottom: 1rem;
-//  width: 10rem;
-//}
+.skills {
+  text-align: right; 
+  padding-right: 20px; 
+  line-height: 40px; 
+  color: white;
+  }
 
-//#img_Tetiana {
-// height: 500px; 
-//}
+.html {
+  width: 90%; 
+  background-color: #4CAF50;
+  }
+
+.css {
+  width: 80%; background-color: #2196F3;
+  } 
+
+.js { 
+  width: 65%; background-color: #f44336;
+  }
+
+.php {
+  width: 60%; background-color: #808080;  
+  }
+
