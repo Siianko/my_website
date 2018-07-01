@@ -22,9 +22,7 @@ a {
   }
 
 a:active {
-  color: #3D4852;
-  background-color: transparent;
-  text-decoration: none;
+  color: rgb(31, 31, 31);
   text-decoration: underline;
   }
 
@@ -53,6 +51,7 @@ a:hover {
 #social {
   padding-top: 5px;
   text-align: center;
+  word-spacing: 10px;
   }
 
 
