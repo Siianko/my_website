@@ -118,8 +118,28 @@ h2.cv {
   font-size: 30px;
   color: rgb(245, 90, 90);
   text-decoration: none;
-  padding-right: 20px; 
   padding-block-start: 3%;
-  padding-inline-start:5%;
+  padding-inline-start: 1%;
   font-family: "Avenir next" ;
+  text-align: left;
+}
+
+.cv {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+input.sidebar_button {
+  align-content: center;
+  color: black;
+  background-color: #bdbcbc;
+  border-color: #353535;
+  border-radius: 4px;
+  width: 95px;
+  height: 30px;
+}
+
+h3.cv {
+  text-align: center;
 }
