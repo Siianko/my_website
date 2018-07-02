@@ -4,12 +4,14 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
-    / Use the title from a page's frontmatter if it has one
-    %title= current_page.data.title || "Middleman"
     %link{:href => "https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css", :rel => "stylesheet"}/
+
+    / Use the title from a page's frontmatter if it has one
+    %title= current_page.data.title || "Siianko"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
-  %body.bg-orange-light
-    
+  
+    = partial 'partials/navbar'
     = yield
-    = partial 'partials/projects'
+    = partial 'partials/footer'
+ 

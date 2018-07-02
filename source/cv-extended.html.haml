@@ -1,0 +1,14 @@
+.body
+
+    %h2.cv Wanted to know more? Here it goes!      
+
+    #container-works
+        .works
+        - data.works.each do |work|
+            %h4= work[:job]
+            %h4= work[:time]
+            %p= work[:description]
+            %br
+
+
+%div{:style => "margin-top:200px"}
