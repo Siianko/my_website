@@ -3,11 +3,7 @@ describe 'Portolio Page', type: :feature do
       visit '/'
   end
 
-  it 'displays project list' do
-    expect(page).to have_css '.projects'
-  end
-
-  it 'displays title' do
+  it 'displays portfolio title' do
     expect(page).to have_content 'My First Website'
   end
 
