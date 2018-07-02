@@ -1,0 +1,147 @@
+.navbar {
+  width: 70%;
+  -webkit-padding-before: 3%;
+          padding-block-start: 3%;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  font-family: "Avenir next";
+  font-size: 30px;
+  word-spacing: 20px; }
+
+.wrapper-hashtags {
+  padding-top: 1%;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%; }
+
+.body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #1f1f1f;
+  background-color: transparent;
+  text-decoration: none; }
+
+a:active {
+  color: #1f1f1f;
+  border-bottom: 3px solid red; }
+
+a:hover {
+  color: #f55a5a;
+  text-decoration: underline; }
+
+#Tetiana {
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  width: 900px; }
+
+#Tetiana:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+.footer-main {
+  padding-top: 10%;
+  color: #a4a4a5;
+  text-align: center;
+  font-family: "Avenir next"; }
+
+#social {
+  padding-top: 5px;
+  text-align: center;
+  word-spacing: 10px; }
+
+#wrapper-skills {
+  margin-top: 35px;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  width: 95%; }
+
+.container-skills {
+  width: 90%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */ }
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white; }
+
+.startups {
+  width: 90%;
+  background-color: #4CAF50; }
+
+.project-management {
+  width: 80%;
+  background-color: #2196F3; }
+
+.marketing {
+  width: 90%;
+  background-color: #f44336; }
+
+.web-development {
+  width: 20%;
+  background-color: #808080; }
+
+.portfolio {
+  padding-right: 20px;
+  -webkit-padding-before: 3%;
+          padding-block-start: 3%;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  font-family: "Avenir next";
+  font-size: 15px;
+  word-spacing: 5px; }
+
+#container-portfolio-intro {
+  margin-top: 25px;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  width: 75%;
+  font-size: 15px;
+  font-family: "Avenir next"; }
+
+h1.portfolio {
+  font-size: 30px;
+  color: #f55a5a;
+  text-decoration: none; }
+
+#container-works {
+  padding-right: 20px;
+  -webkit-padding-before: 3%;
+          padding-block-start: 3%;
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  font-family: "Avenir next";
+  font-size: 15px;
+  word-spacing: 5px; }
+
+h2.cv {
+  font-size: 30px;
+  color: #f55a5a;
+  text-decoration: none;
+  -webkit-padding-before: 3%;
+          padding-block-start: 3%;
+  -webkit-padding-start: 1%;
+          padding-inline-start: 1%;
+  font-family: "Avenir next";
+  text-align: left; }
+
+.cv {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 50px; }
+
+input.sidebar_button {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: black;
+  background-color: #bdbcbc;
+  border-color: #353535;
+  border-radius: 4px;
+  width: 95px;
+  height: 30px; }
+
+h3.cv {
+  text-align: center; }
